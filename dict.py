@@ -12,3 +12,13 @@ print(results)
 fruits = ['cherry','berries', 'mango','pineapple']
 value = [len(f) for f in [fruits]]
 print(value)
+
+
+person = {"name": 'arpita', 'age': '23', 'sub':'bio'}
+
+print(person['name'])
+print(person['age'])
+person['salary'] = '50,000' #the value is added to dict
+print(person)
+del person['sub']
+print(person)
