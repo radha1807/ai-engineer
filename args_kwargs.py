@@ -42,4 +42,13 @@ full_example('hello', 1, 2, 3, keyword_only='custom', debug=True, version=2)
 
 def order_pizza(size, *toppings, crust='thin', **extras):
     print(f'Size: {size} | Toppings: {toppings} | Crust: {crust} | Extras: {extras}')
- 
+
+#method1
+def double(x):
+    return x * 2
+print (double(2))
+
+#method2
+double_lambda = lambda x:x*2
+double(5)
+print(double_lambda(5))
